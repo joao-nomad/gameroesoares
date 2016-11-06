@@ -1,0 +1,663 @@
+#destaqueTitulo{display: none;}
+#destaqueTexto{display: none;}
+
+#itrImg{background: url(../img/itrD.png) no-repeat;}
+#preImg{background: url(../img/prevD.png) no-repeat;}
+#controleImg{background: url(../img/prodD.png) no-repeat;}
+#notaImg{background: url(../img/notD.png) no-repeat;}
+#sustentImg{background: url(../img/susD.png) no-repeat;}
+
+#itrImg:hover, #preImg:hover, #controleImg:hover, #notaImg:hover, #sustentImg:hover{border-color: #337ab7;}
+
+#divDestaque{
+	background-color: black;
+	opacity: 0.7;
+    height: 70px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("img/upBar.png");
+}
+
+.indexPar{
+	color: white;
+	z-index: 700;
+ 	position: relative;
+  	font-size: 20px;
+  	margin-top: 30px;
+  	font-family: "TW Cen MT" !important;
+}
+
+.secondPar{
+	margin-top: 0px !important;
+}
+
+#mainPage{
+	overflow: hidden;
+}
+
+#mainPage #logoImg{
+	position: relative;
+	margin-top: 90px !important;
+}
+
+#blackDiv{
+	background-color: black;
+    height: 170%;
+    position: absolute;
+    width: 100%;
+    opacity: 0.7;
+    margin-top: -170px;
+}
+
+#empresasBt, #ruralBt{width: 200px !important}
+
+@media only screen
+and (max-width: 403px)
+{
+  #empresasBt, #ruralBt{
+  	width: 45% !important;
+  	font-size: 12px;
+  }
+
+  #logoImg {
+    width: 250px !important;
+  }
+
+  #blackDiv{
+  	margin-top: -200px !important;
+  }
+}
+
+.smallerT{font-size: 16px;}
+
+input[type="text"], input[type="email"]  {
+    width: 70%;
+    height: 45px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 0px;
+    background: #337ab7;
+    color: white;
+    padding-left: 20px;
+}
+
+footer{
+	padding: 0px !important;
+	margin-top: 0px !important;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus  {
+    background: white;
+    color: #337ab7;
+    border: 1px solid #337ab7;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+	color: white;
+}
+
+input[type="text"]:focus::-webkit-input-placeholder {
+	color:#337ab7;
+}
+
+input[type="email"]:focus::-webkit-input-placeholder {
+	color:#337ab7;
+}
+
+textarea:focus::-webkit-input-placeholder {
+	color:#337ab7;
+}
+
+input[type="email"]::-webkit-input-placeholder {
+  color: white;
+}
+
+textarea::-webkit-input-placeholder {
+  color: white;
+}
+
+textarea{
+	width: 70%;
+	height: 150px;
+    margin-top: 5px;
+	border-radius: 5px;
+    border: 0px;
+    background: #337ab7;
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.orcBtn{
+	width: 70%;
+    height: 45px;
+    background: transparent;
+    border: 1px solid #337ab7;
+    border-radius: 5px;
+    color: #337ab7;
+    font-size: 16px;
+}
+
+.orcBtn:hover{
+	width: 70%;
+    height: 45px;
+    background: #337ab7;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+#galleria {
+	position: relative;
+	top: 10px;
+	overflow: hidden;
+	height: 450px;
+}
+
+.accord{
+	margin-top: -2px !important;
+}
+
+#logoImg{
+	width: 400px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+}
+
+footer{
+	font-size: 18px;
+}
+
+.aboutTitle{
+	font-weight: bold;
+}
+
+.aboutContainer{
+	background-color: #e8e8e8;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.spacetop{
+	margin-top: 0px;
+}
+
+.header{
+	height: 500px !important;
+}
+
+.btnPresentation{
+	opacity: 0.6 !important;
+	background-color: black;
+	color: white !important;
+}
+/* Fim do Produtor Rural */
+
+
+.branco
+{
+	color: white !important;
+}
+
+.mainP{
+	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+#ptEnt
+{
+	width: 100px;
+	height: 35px;
+	background: url(../img/ptFlag.png) no-repeat;
+	background-color: black;
+	background-position: 8px 1px;
+	background-size: 80px 30px;
+	opacity: 0.5;
+}
+
+#enEnt
+{
+	width: 100px;
+	height: 35px;
+	background: url(../img/enFlag.png) no-repeat;
+	background-color: black;
+	background-position: 8px 1px;
+	background-size: 80px 30px;
+	opacity: 0.5;
+}
+
+#esEnt
+{
+	width: 100px;
+	height: 35px;
+	background: url(../img/esFlag.png) no-repeat;
+	background-color: black;
+	background-position: 8px 1px;
+	background-size: 80px 30px;
+	opacity: 0.5;
+}
+
+#ptEnt:hover, #enEnt:hover, #esEnt:hover{
+	opacity: 0.9;
+}
+
+#wifi
+{
+	height: 100px;
+	width: 100px;
+	border: 0px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background: white url(../img/wifi.png) no-repeat;
+}
+
+#contract
+{
+	height: 100px;
+	width: 100px;
+	border: 0px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background: white url(../img/contract.png) no-repeat;
+}
+
+#itr
+{
+	height: 100px;
+	width: 100px;
+	border: 0px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background: white url(../img/itr.png) no-repeat;
+}
+
+#controleGado
+{
+	height: 100px;
+	width: 100px;
+	border: 0px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background: white url(../img/controleGado.png) no-repeat;
+}
+
+#vaccination
+{
+	height: 100px;
+	width: 100px;
+	border: 0px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background: white url(../img/vaccination.png) no-repeat;
+}
+
+#fruits
+{
+	height: 100px;
+	width: 100px;
+	border: 0px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background: white url(../img/fruits.png) no-repeat;
+}
+
+#lucroImob
+{
+	height: 100px;
+	width: 100px;
+	border: 0px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background: white url(../img/lucroImob.png) no-repeat;
+}
+
+#reasonBook
+{
+	height: 100px;
+	width: 100px;
+	border: 0px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background: white url(../img/reasonBook.png) no-repeat;
+}
+
+#credit
+{
+	height: 100px;
+	width: 100px;
+	border: 0px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background: white url(../img/credit.png) no-repeat;
+}
+
+#irenda
+{
+	height: 100px;
+	width: 100px;
+	border: 0px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background: white url(../img/irenda.png) no-repeat;
+}
+
+#cadastro
+{
+	height: 100px;
+	width: 100px;
+	border: 0px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background: white url(../img/cadastro.png) no-repeat;
+}
+
+#gallery 
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#facebook{
+	height: 100px;
+	width: 150px;
+	background: transparent;
+	background-image:url(../img/facebookpage.png);
+   	background-size:contain;
+   	background-repeat:no-repeat;
+	border: 0px;
+}
+
+.dropList{
+	float: left;
+    margin-left: 33%;
+}
+
+.teste1, .test2{z-index: 500;}
+.navHeader{
+	position: relative;
+	z-index: 600;
+}
+
+.defaultSc{
+	height: auto !important;
+}
+
+@media only screen
+and (min-width: 992px)
+{
+  .defaultSc{
+  	height: 330px !important;
+  }
+}
+
+@media only screen
+and (min-width: 1200px)
+{
+  .defaultSc{
+  	height: 240px !important;
+  }
+}
+
+.funcDiv{
+	height: 240px;
+}
+
+.photoFunc{
+	height: 130px;
+    width: 130px;
+    border-radius: 70px;
+    border: 2px solid #b1b1b1;
+}
+
+#thiago{
+	background: url(../img/thiago.png) no-repeat;
+}
+
+.facebookLBtn{
+	background: url(../img/facebookBtn.png) no-repeat;
+	background-size:contain;
+  	background-repeat:no-repeat;
+	height: 30px;
+	width: 30px;
+	border: 0px;
+}
+
+.linkedinLBtn{
+	background: url(../img/linkedinBtn.png) no-repeat;
+	background-size:contain;
+  	background-repeat:no-repeat;
+	height: 30px;
+	width: 30px;
+	border: 0px;
+}
+
+#textosServicos
+{
+	font-size: 20px;
+	height: auto;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+#servLinks a{cursor: pointer;}
+
+@media only screen
+and (min-width: 1000px)
+{
+	#textosServicos
+	{
+		margin-left: 300px;
+    	margin-top: -770px;
+    	height: 750px !important;
+    	background-color: #f8f8f8;
+    	color: black;
+    	overflow: auto;
+	}
+
+	#navServ
+	{
+		width: 25%;
+	    margin-left: 0px;
+	}
+}
+
+#tituloServ{margin-top: 20px;}
+
+.mercImg
+{
+	background: url(../img/supermercado.png) no-repeat;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    border: 2px solid #b1b1b1;
+    background-size: cover;
+}
+
+.combImg
+{
+	background: url(../img/combImg.png) no-repeat;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    border: 2px solid #b1b1b1;
+    background-size: cover;
+}
+
+.atacImg
+{
+	background: url(../img/atacImg.png) no-repeat;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    border: 2px solid #b1b1b1;
+    background-size: cover;
+}
+
+.varejImg
+{
+	background: url(../img/varejImg.png) no-repeat;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    border: 2px solid #b1b1b1;
+    background-size: cover;
+}
+
+.condoImg
+{
+	background: url(../img/condoImg.png) no-repeat;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    border: 2px solid #b1b1b1;
+    background-size: cover;
+}
+
+.civilImg
+{
+	background: url(../img/civilImg.png) no-repeat;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    border: 2px solid #b1b1b1;
+    background-size: cover;
+}
+
+.educImg
+{
+	background: url(../img/iducImg.png) no-repeat;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    border: 2px solid #b1b1b1;
+    background-size: cover;
+}
+
+
+.hotelImg
+{
+	background: url(../img/hotelImg.png) no-repeat;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    border: 2px solid #b1b1b1;
+    background-size: cover;
+}
+
+
+.industImg
+{
+	background: url(../img/industImg.png) no-repeat;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    border: 2px solid #b1b1b1;
+    background-size: cover;
+}
+
+.shopImg
+{
+	background: url(../img/shopImg.png) no-repeat;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    border: 2px solid #b1b1b1;
+    background-size: cover;
+}
+
+.pservicoImg
+{
+	background: url(../img/pservicoImg.png) no-repeat;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    border: 2px solid #b1b1b1;
+    background-size: cover;
+}
+
+
+.agroImg
+{
+	background: url(../img/agroImg.png) no-repeat;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    border: 2px solid #b1b1b1;
+    background-size: cover;
+}
+
+
+.saudeImg
+{
+	background: url(../img/saudeImg.png) no-repeat;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    border: 2px solid #b1b1b1;
+    background-size: cover;
+}
+
+.liberalImg
+{
+	background: url(../img/liberalImg.png) no-repeat;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    border: 2px solid #b1b1b1;
+    background-size: cover;
+}
+
+@font-face {
+        font-family: 'TW Cen MT';
+        src: url(fonts/TCB_____.TTF);
+}
+
+.elastic{
+	width: 100%;
+	background: red;
+}
