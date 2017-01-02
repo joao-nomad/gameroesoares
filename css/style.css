@@ -17,7 +17,7 @@ body{
 
 .navBar .container{background-color: white !important;}
 
-.actived, .normalMenu:hover, .responsiveMenu:hover{
+.actived, .normalMenu:hover, .responsiveMenu:hover, .barsIco:hover{
     background-color: #598548 !important;
     color: white !important;
 }
@@ -70,6 +70,14 @@ and (max-width: 1230px){
     margin-left: 2px;    
     cursor: pointer;
     font-family: "Myriad" !important;
+    background-color: white;
+}
+
+.barsIco{
+    background-image: url("../img/3bars.png");
+}
+.barsIco:hover{
+    background-image: url("../img/3bars2.png");
 }
 
 .responsiveMenu{
@@ -81,6 +89,7 @@ and (max-width: 1230px){
     margin-top: 2px;
     cursor: pointer;
     font-family: "Myriad" !important;
+    background-color: white;
 }
 #responsiveBar, #responsiveBar .container{
 	height: 310px;
@@ -96,6 +105,7 @@ and (max-width: 1230px){
     border: 0px;
     display: none;    
     cursor: pointer;
+    background-color: white;
 }
 
 .mainLogo{
