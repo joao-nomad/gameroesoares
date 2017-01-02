@@ -175,3 +175,11 @@ and (max-width: 600px){
     }
     .navBar .container{height: 80px !important;}
 }
+
+#galleria
+{
+    position: relative;
+    top: 10px;
+    overflow: hidden;
+    height: 450px;
+}
