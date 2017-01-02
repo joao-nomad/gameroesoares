@@ -1,11 +1,11 @@
 @font-face {
-    font-family: Myriad;
-    src: url('../font/MyriadPro-Regular.otf');
+    font-family: "Myriad";
+    src: url("../font/Myriad.otf");
 }
 
 body{
     margin: 0 auto;
-    font-family: Myriad;
+    font-family: "Myriad" !important;
 }
 
 .navBar{
@@ -69,6 +69,7 @@ and (max-width: 1230px){
     border: 0px;
     margin-left: 2px;    
     cursor: pointer;
+    font-family: "Myriad" !important;
 }
 
 .responsiveMenu{
@@ -79,6 +80,7 @@ and (max-width: 1230px){
     border: 0px;
     margin-top: 2px;
     cursor: pointer;
+    font-family: "Myriad" !important;
 }
 #responsiveBar, #responsiveBar .container{
 	height: 310px;
