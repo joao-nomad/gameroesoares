@@ -162,6 +162,7 @@ and (max-width: 600px){
     .mainLogo{
         width: 60% !important;
         height: 80px !important;
+        margin-top: 4px !important;
     }
     #menuBars {
         height: 80px !important;
