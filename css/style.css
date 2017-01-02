@@ -161,5 +161,16 @@ and (max-width: 1230px){
 and (max-width: 600px){
     .mainLogo{
         width: 60% !important;
+        height: 80px !important;
     }
+    #menuBars {
+        height: 80px !important;
+        width: 100px !important;
+        float: right;
+        border: 0px;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        cursor: pointer !important;
+    }
+    .navBar .container{height: 80px !important;}
 }
