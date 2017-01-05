@@ -41,3 +41,17 @@ function explode(){
 }
 
 setTimeout(explode, 4000);
+
+$("#missionBtn").click(function() {
+	$("#aboutBtn").removeClass("btnActived");
+	$("#missionBtn").addClass("btnActived");
+	$("#aboutTxt").hide();
+	$("#missionTxt").show();
+});
+
+$("#aboutBtn").click(function() {
+	$("#missionBtn").removeClass("btnActived");
+	$("#aboutBtn").addClass("btnActived");
+	$("#missionTxt").hide();
+	$("#aboutTxt").show();
+});
