@@ -24,18 +24,20 @@ $(window).resize(function(){
 });
 
 function explode(){
-  if ($("#bg1").css("display") == "block"){
-  	$("#bg1").fadeOut("fast");
-  	$("#bg2").fadeIn("fast");
+  if ($("#backs").hasClass("bg1") == true){
+  	$("#backs").removeClass();
+  	$("#backs").addClass("bg2");
   }
-  else if ($("#bg2").css("display") == "block"){
-  	$("#bg2").fadeOut("fast");
-  	$("#bg3").fadeIn("fast");
+
+  else if ($("#backs").hasClass("bg2") == true){
+  	$("#backs").removeClass();
+  	$("#backs").addClass("bg3");
   }
-  else if ($("#bg3").css("display") == "block"){
-  	$("#bg3").fadeOut("fast");
-  	$("#bg1").fadeIn("fast");
-  } 
+
+  else if ($("#backs").hasClass("bg3") == true){
+  	$("#backs").removeClass();
+  	$("#backs").addClass("bg1");
+  }
 
   setTimeout(explode, 4000);
 }
