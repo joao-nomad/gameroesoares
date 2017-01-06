@@ -174,10 +174,17 @@ and (max-width: 1230px){
 
 #services{
     width: 100%;
-    background: green;
+    background-color: #e0e0df;
     margin: 0 auto;
-    display: block; 
+    display: block;
+    height: auto; 
 }
+#services .container{
+    background-color: #e0e0df !important;
+    height: auto !important;
+    padding-bottom: 40px;
+}
+
 #orcamentos{
     width: 100%;
     background: navy;
@@ -318,7 +325,26 @@ and (max-width: 430px){
     margin: 0 auto;
 }
 
-#servicesMenu .title{
+.title{
     padding-top: 40px !important;
     padding-bottom: 20px;
+}
+
+#serviceP{
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#photoServ{
+    height: 300px;
+    width: 93%;
+    border: 2px solid #598548;
+     -webkit-box-shadow:inset 0px 0px 0px 10px white;
+    -moz-box-shadow:inset 0px 0px 0px 10px white;
+    box-shadow:inset 0px 0px 0px 10px white;
+}
+
+.service1Pic{
+    background-image: url("../img/bg1.png");
 }
