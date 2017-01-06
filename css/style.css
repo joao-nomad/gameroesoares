@@ -161,10 +161,17 @@ and (max-width: 1230px){
 
 #servicesMenu{
     width: 100%;
-    background: yellow;
+    background: white;
     margin: 0 auto;
     display: block; 
+    height: auto;
 }
+
+#servicesMenu .container{
+    background-color: white !important;
+    height: auto !important;
+}
+
 #services{
     width: 100%;
     background: green;
@@ -302,4 +309,16 @@ and (max-width: 430px){
     }
 
     #missionBtn{margin-left: 150px !important;}
+}
+
+.title{
+    font-size: 18px;
+    font-family: "Myriad" !important;
+    color: green;
+    margin: 0 auto;
+}
+
+#servicesMenu .title{
+    padding-top: 40px !important;
+    padding-bottom: 20px;
 }
