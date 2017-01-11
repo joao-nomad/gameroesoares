@@ -392,7 +392,19 @@ and (max-width: 430px){
 }
 
 .service1Pic{
-    background-image: url("../img/bg1.png");
+    background-image: url("../img/s1.png");
+}
+.service2Pic{
+    background-image: url("../img/s2.png");
+}
+.service3Pic{
+    background-image: url("../img/s3.png");
+}
+.service4Pic{
+    background-image: url("../img/s4.png");
+}
+.service5Pic{
+    background-image: url("../img/s5.png");
 }
 
 #orcamentos .title{color: white !important;}
