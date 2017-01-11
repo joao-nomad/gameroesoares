@@ -15,6 +15,10 @@ body{
     display: block; 
 }
 
+.slickText{
+    color: green !important;
+}
+
 .navBar .container{background-color: white !important;}
 
 .actived, .normalMenu:hover, .responsiveMenu:hover, .barsIco:hover{
@@ -165,6 +169,7 @@ and (max-width: 1230px){
     margin: 0 auto;
     display: block; 
     height: auto;
+    margin-bottom: 40px;
 }
 
 #servicesMenu .container{
