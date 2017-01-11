@@ -57,3 +57,34 @@ $("#aboutBtn").click(function() {
 	$("#missionTxt").hide();
 	$("#aboutTxt").show();
 });
+
+/*Slider*/
+$(".whoBtn").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about").offset().top - 60
+    }, 2000);
+});
+
+$(".serviceBtn").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#servicesMenu").offset().top
+    }, 2000);
+});
+
+$(".orcamBtn").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#orcamentos").offset().top
+    }, 2000);
+});
+
+$(".contBtn").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contato").offset().top
+    }, 2000);
+});
+
+$(".homeBtn").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#homeDiv").offset().top
+    }, 2000);
+});

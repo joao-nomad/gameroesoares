@@ -8,29 +8,29 @@
 	<link rel="stylesheet" type="text/css" href="css/cst.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/slick.css">
-	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" typehomeBtn ="text/css" href="css/slick-theme.css">
 </head>
 <body>	
 	
-	<div class="navBar">
+	<div class="navBar" id="homeDiv">
 		<div class="container">
 			<div class="mainLogo"></div>
-			<button class="normalMenu">CONTATO</button>
-			<button class="normalMenu">ORÇAMENTOS</button>
-			<button class="normalMenu">SERVIÇOS</button>
-			<button class="normalMenu">QUEM SOMOS</button>
-			<button class="normalMenu actived">HOME</button>
+			<button class="normalMenu contBtn">CONTATO</button>
+			<button class="normalMenu orcamBtn">ORÇAMENTOS</button>
+			<button class="normalMenu serviceBtn">SERVIÇOS</button>
+			<button class="normalMenu whoBtn">QUEM SOMOS</button>
+			<button class="normalMenu homeBtn actived">HOME</button>
 			<button id="menuBars" class="barsIco"></button>
 		</div>
 	</div>
 
 	<div class="navBar" id="responsiveBar">
 		<div class="container">
-			<button class="responsiveMenu actived">HOME</button>
-			<button class="responsiveMenu">QUEM SOMOS</button>
-			<button class="responsiveMenu">SERVIÇOS</button>
-			<button class="responsiveMenu">ORÇAMENTOS</button>
-			<button class="responsiveMenu">CONTATO</button>
+			<button class="responsiveMenu homeBtn actived">HOME</button>
+			<button class="responsiveMenu whoBtn">QUEM SOMOS</button>
+			<button class="responsiveMenu serviceBtn">SERVIÇOS</button>
+			<button class="responsiveMenu orcamBtn">ORÇAMENTOS</button>
+			<button class="responsiveMenu contBtn">CONTATO</button>
 		</div>
 	</div>
 
@@ -40,7 +40,7 @@
 
 	<div id="announc">
 		<div class="container">
-			<p>CONHEÇA AS NOSSAS SOLUÇÕES EM TOPOGRAFIA E ENGENHARIA. FALE COM A GENTE. </p><button id="orcBtn">Solicite um orçamento</button>
+			<p>CONHEÇA AS NOSSAS SOLUÇÕES EM TOPOGRAFIA E ENGENHARIA. FALE COM A GENTE. </p><button class="orcamBtn" id="orcBtn">Solicite um orçamento</button>
 		</div>
 	</div>
 
@@ -135,8 +135,23 @@
 	</div>
 
 	<div id="contato">
-		<div class="container">
+		<div class="container" align="center">
+			<p class="title" id="contatoP">CONTATO</p>
+
+			<p class="title" id="telP">Telefones</p>
+			<p style="margin-bottom: -20px;">(12) 99986-2863<br>
+			(12) 97401-6696</p>
+
+			<p class="title" id="emailP">E-mails</p>
+			<p>pedro@gameroesoares.com.br<br>
+			samuel@gameroesoares.com.br</p>
+			
+			<p class="title" id="endP">Endereço</p>
 		</div>
+	</div>
+
+	<div style="width: 100% !important;">
+		<iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3662.006777401848!2d-45.66500358556217!3d-23.387972084769252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cda6b0baecb843%3A0x27a405210888db20!2sR.+Cel.+Marcelino%2C+82%2C+Paraibuna+-+SP%2C+12260-000!5e0!3m2!1sen!2sbr!4v1484099783866" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</div>
 
 <script src="js/jquery3.1.1.min.js"></script>
